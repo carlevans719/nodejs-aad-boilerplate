@@ -1,0 +1,32 @@
+{
+  "name": "azure-devops-pr-server",
+  "version": "1.0.0",
+  "description": "A PR server to enforce rules on PRs raised on Azure DevOps repositories",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "@carlevans719",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.14.1"
+  },
+  "dependencies": {
+    "azure-devops-node-api": "^7.0.0",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "dotenv": "^6.2.0",
+    "ejs": "^2.6.1",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "method-override": "^3.0.0",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-azure-ad": "^4.0.0",
+    "response-time": "^2.3.2",
+    "serve-favicon": "^2.5.0",
+    "serve-static": "^1.13.2"
+  }
+}

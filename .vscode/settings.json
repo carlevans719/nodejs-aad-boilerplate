@@ -1,0 +1,7 @@
+{
+  "eslint.autoFixOnSave": true,
+  "eslint.enable": true,
+  "eslint.run": "onType",
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true
+}
